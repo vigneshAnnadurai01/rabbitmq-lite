@@ -1,0 +1,24 @@
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+
+venv/
+.env/
+
+# VS Code
+
+.vscode/
+
+# RabbitMQ installers
+
+otp_win64_*.exe
+rabbitmq-server-*.exe
+
+# Logs
+
+*.log
