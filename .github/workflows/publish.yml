@@ -7,6 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: pypi   # ← this must match the "Environment name" you set on PyPI
     
     # This block is crucial for modern, secure, passwordless publishing to PyPI
     permissions:
