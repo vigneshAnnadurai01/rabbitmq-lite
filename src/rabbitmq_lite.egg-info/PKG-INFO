@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: rabbitmq-lite
+Version: 0.1.0
+Summary: RabbitMQ based microservice messaging framework
+Author-email: Vignesh Annadurai <vignesh@example.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pika
+Dynamic: license-file
+
+# RabbitMQ Messaging Application
+
+##  Overview
+
+The **RabbitMQ Messaging Application** is a scalable and fault-tolerant messaging system that demonstrates asynchronous communication between distributed components using a message broker architecture.
+
+This project implements **producer-consumer messaging patterns** using RabbitMQ, enabling reliable, decoupled, and high-performance data exchange between services.
+
+---
+
+##  Key Features
+
+- Asynchronous message publishing (Producer)
+- Reliable message consumption (Consumer)
+- Queue-based messaging using RabbitMQ (AMQP protocol)
+- Guaranteed message delivery with acknowledgments
+- Scalable architecture for distributed systems
+- Robust error handling and logging mechanisms
+- Easily extensible for microservices integration
+
+---
+
+##  Technology Stack
+
+- **Message Broker:** RabbitMQ
+- **Protocol:** AMQP 0-9-1
+- **Programming Language:** Java / Python / Node.js / .NET *(as applicable)*
+- **Frameworks:** (Spring Boot / Express / Flask / .NET Core) *(if applicable)*
+- **Build Tools:** Maven / npm / pip
+- **Logging:** Built-in logging framework / Log4j / Winston / etc.
+
+---
+
+##  Prerequisites
+
+Before running this project, ensure the following are installed:
+
+- RabbitMQ Server
+- Erlang (dependency for RabbitMQ)
+- Language runtime (JDK / Python / Node.js / .NET SDK)
+- Package manager (Maven / npm / pip)
+
+---
+
+##  Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone:https://github.com/vigneshAnnadurai01/rabbitmq-lite.git
+cd rabbitmq-lite

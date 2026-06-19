@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rabbitmq-lite"
+version = "0.1.0"
+description = "RabbitMQ based microservice messaging framework"
+authors = [
+  { name="Vignesh Annadurai", email="vignesh@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "pika"
+] 

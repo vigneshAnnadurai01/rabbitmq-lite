@@ -1,28 +1,3 @@
- 
-    
-# from messaging.rabbitmq import get_channel
-# import json
-# event = {
-#     "user_id": 101,
-#     "action": "create_account"
-# }
-# payload = {
-#     "data": event,
-#     "retry_count": 0
-# }
-# def publish(queue_name, payload):
-#     channel = get_channel()
-
-#     channel.basic_publish(
-#         exchange="",
-#         routing_key=queue_name,
-#         body=json.dumps(payload),
-#         properties=None
-#     )
-
-#     print(f"Published --> {queue_name}")
-
-
 import json
 import logging
 from messaging.rabbitmq import get_channel
