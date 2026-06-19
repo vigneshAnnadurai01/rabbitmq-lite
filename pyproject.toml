@@ -7,7 +7,7 @@ name = "rabbitmq-lite"
 version = "0.1.0"
 description = "RabbitMQ based microservice messaging framework"
 authors = [
-  { name="Vignesh Annadurai", email="vignesh@example.com" }
+  { name="Vignesh Annadurai", email="vignesharavindh2002@gmail.com" }
 ]
 readme = "README.md"
 requires-python = ">=3.8"
