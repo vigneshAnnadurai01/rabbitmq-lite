@@ -1,0 +1,2 @@
+import rabbitmq_lite
+print(rabbitmq_lite.__version__)
